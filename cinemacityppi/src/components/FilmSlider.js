@@ -23,6 +23,7 @@ const FilmSlider = () => {
     return (
         <div className="slider">
             <h2 className="header-slider">Our Selection</h2>
+            
             <div className="slider-wrapper">
                 <Slider {...settings}>
                     {films.map((film) => {
